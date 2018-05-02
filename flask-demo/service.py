@@ -3,7 +3,7 @@
 import time
 import datetime
 
-import pymysql
+import MySQLdb
 import xlwt
 
 from config import configs, sql
@@ -12,7 +12,7 @@ from config import configs, sql
 def _db():
     conf = configs['db']
     conf['charset'] = "utf8"
-    conn = pymysql.connect(**conf)
+    conn = MySQLdb.connect(**conf)
     return conn.cursor()
 
 

@@ -1,0 +1,22 @@
+<!--page/posts/posts.wxml-->
+<view>
+  <swiper indicator-dots='true' vertical='false'>
+    <swiper-item>
+      <image src="/images/a.jpg"></image>
+    </swiper-item>
+    <swiper-item>Content2</swiper-item>
+    <swiper-item>
+      <image src="/images/a.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view>
+  <view class="post-container">
+    <image src='/images/1.jpg'></image>
+    <text>Jane</text>
+  </view>
+  <text>2018.4.27</text>
+  <image src='/images/a.jpg'></image>
+  <text>fdsfsfs</text>
+</view>

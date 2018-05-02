@@ -1,0 +1,21 @@
+/* page/posts/posts.wxss */
+swiper{
+  height:500rpx;
+  width:100%
+}
+
+
+swiper image{
+  height:500rpx;
+  width:100%
+}
+
+
+.post-container{
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx 0 20rpx 0;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  vertical-align: center;
+}

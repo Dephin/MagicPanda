@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="avatar" src="/images/avatar.jpg"></image>
+  <text class='username'>hello</text>
+  <view class='moto-container'>
+    <text>click it</text>
+  </view>
+</view>

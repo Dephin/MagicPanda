@@ -1,9 +1,9 @@
 configs = {
 
     'db': {
-        'host':'',
-        'user':'',
-        'passwd':'',
+        'host':'121.41.164.58',
+        'user':'sd89ynd0922bs',
+        'passwd':'rM93fr40O3pl1',
         'db':'efast'
         }  
 
